@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassActV._0._01.Views.Club_pages.YourClubs"
+             x:Name="RootPage"
+             Title="Your Clubs">
+
+    <ScrollView>
+        <VerticalStackLayout
+            HorizontalOptions="Fill" 
+            VerticalOptions="FillAndExpand" 
+            Padding="10">
+
+            <Label 
+                Text="Clubs"
+                Style="{StaticResource Headline}"
+                FontSize="50"
+                SemanticProperties.HeadingLevel="Level1"
+                HorizontalOptions="Center"
+                Margin="0,0,0,0"
+                />
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="FBLA"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End"
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Next Meeting"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand"
+                    HorizontalTextAlignment="Start"
+                    />
+                <Label
+                    Text="Today, 3:30 P.M."
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Fundraiser: Meatsticks, Lolipops, Flowers"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Begins October 29"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="FBLA Dues are Due (they can be paid in advance)"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand"
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Due November 10"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="School Band"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="1">
+                <Label
+                    Text="Rehearsals"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Twice a week after school: Tuesday, Thursday"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="1">
+                <Label
+                    Text="Performance"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="October 19, 12:00 P.M."
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

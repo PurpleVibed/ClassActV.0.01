@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ClassActV._0._01.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:ClassActV._0._01.Views"
+    xmlns:club="clr-namespace:ClassActV._0._01.Views.Club_pages" 
+    xmlns:email="clr-namespace:ClassActV._0._01.Views.EmailPages" 
+    xmlns:pages="clr-namespace:ClassActV._0._01"
+    Title="ClassActV._0._01"
+    FlyoutBackgroundColor="#A90200"
+    Shell.FlyoutBehavior="Flyout" >
+    
+    <FlyoutItem Title="Home" Route="MainPage" >
+        <ShellContent ContentTemplate="{DataTemplate views:MainPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Events" Route="schoolEventsPage" >
+        <ShellContent ContentTemplate="{DataTemplate views:schoolEventsPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Email" Route="emailPage">
+        <ShellContent ContentTemplate="{DataTemplate views:emailPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Class Work" Route="classWork">
+        <ShellContent ContentTemplate="{DataTemplate views:classWork}" />
+    </FlyoutItem>
+
+    <FlyoutItem  Title="Club Page" Route="ClubManagerPage">
+        <ShellContent ContentTemplate="{DataTemplate views:ClubManagerPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Information" Route="information">
+        <ShellContent ContentTemplate="{DataTemplate views:information}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Notes" Route="AllNotesPage">
+        <ShellContent
+            Title="Notes"
+            ContentTemplate="{DataTemplate views:AllNotesPage}"
+            Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png', MacCatalyst='icon_notes_ios.png'}" 
+            Route="AllNotesPage"
+            />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Reminders" Route="Reminders">
+        <ShellContent ContentTemplate="{DataTemplate views:Reminders}" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="About" Route="AboutPage">
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate views:AboutPage}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}"
+            Route="AboutPage"
+            />
+    </FlyoutItem>
+
+    <ShellContent
+        FlyoutItemIsVisible="False"
+        Title="Your Clubs"
+        ContentTemplate="{DataTemplate club:YourClubs}"
+        Route="YourClubs"
+        />
+
+    <ShellContent
+        FlyoutItemIsVisible="False"
+        Title="Club Notifications"
+        ContentTemplate="{DataTemplate club:ClubNotifications}"
+        Route="ClubNotifications"
+        />
+
+    <!-- Existing Shell content here -->
+    <Shell.ToolbarItems>
+        <ToolbarItem Text="Home" Clicked="OnHomeButtonClicked" IconImageSource="{FontImage Glyph='🏠', Color=Black, Size=22}" />
+    </Shell.ToolbarItems>
+    
+</Shell>
+    
+    <!--in loving memory of Brooklynn Pendarvis-->

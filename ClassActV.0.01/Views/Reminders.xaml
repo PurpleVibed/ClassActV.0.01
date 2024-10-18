@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassActV._0._01.Views.Reminders"
+             x:Name="RootPage"
+             Title="Your Reminders">
+
+    <ScrollView>
+        <VerticalStackLayout
+            HorizontalOptions="Fill" 
+            VerticalOptions="FillAndExpand" 
+            Padding="10">
+
+            <Label 
+                Text="Reminders"
+                Style="{StaticResource Headline}"
+                FontSize="50"
+                SemanticProperties.HeadingLevel="Level1"
+                HorizontalOptions="Center"
+                Margin="0,0,0,0"
+                LineBreakMode="WordWrap"
+                />
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="Classwork"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End"
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Math"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand"
+                    HorizontalTextAlignment="Start"
+                    />
+                <Label
+                    Text="Homework on todays lesson"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="English"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Summarize chapter 3"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Design"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand"
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Get the pretty looking app running before deadline"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="Clubs"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="1">
+                <Label
+                    Text="FBLA"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="look into joining them"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="1">
+                <Label
+                    Text="Times"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="See if their calendar will work with my schedule"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

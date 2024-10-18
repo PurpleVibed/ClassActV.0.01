@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:ClassActV._0._01.Converters"
+             x:Class="ClassActV._0._01.App">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Add the Size Converter -->
+            <converters:ProportionalSizeConverter x:Key="ProportionalSizeConverter"/>
+
+            <!-- Define Global Styles -->
+            <Style TargetType="Button">
+                <Setter Property="WidthRequest" 
+                        Value="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=Width, Converter={StaticResource ProportionalSizeConverter}, ConverterParameter=0.5}" />
+                <Setter Property="HeightRequest" 
+                        Value="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=Height, Converter={StaticResource ProportionalSizeConverter}, ConverterParameter=0.1}" />
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="WidthRequest" 
+                        Value="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=Width, Converter={StaticResource ProportionalSizeConverter}, ConverterParameter=0.8}" />
+                <Setter Property="HeightRequest" 
+                        Value="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=Height, Converter={StaticResource ProportionalSizeConverter}, ConverterParameter=0.1}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassActV._0._01.Views.classWork"
+             x:Name="RootPage"
+             Title="Class Work">
+
+
+    <ScrollView Padding="10">
+        <VerticalStackLayout
+            HorizontalOptions="Fill" 
+            VerticalOptions="FillAndExpand" >
+
+            <Label 
+                Text="Assignments"
+                Style="{StaticResource Headline}"
+                FontSize="50"
+                SemanticProperties.HeadingLevel="Level1"
+                HorizontalOptions="Center"
+                Margin="0,0,0,20"
+                />
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="1st Hour Algebra II"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End"
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Unit 11 test"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand"
+                    HorizontalTextAlignment="Start"
+                    />
+                <Label
+                    Text="Due Today 3:30 P.M."
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Unit 8.5 Cool Down"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="No Due date"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Unit 5 practice problems"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand"
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Due September 29"
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="2nd Hour Robotics"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="1">
+                <Label
+                    Text="Day 3 Code along"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Due Tommorow 12:00 P.M."
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal"
+                Padding="1">
+                <Label
+                    Text="Arduino Robotic Claw Project"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Due October 20 12:00 P.M."
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="3rd Hour YouPath"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="No Unfinished Classwork"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text=" "
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="4th Hour Personal Communications"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="Two minute advertisement"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text="Tomorrow 3:00 P.M."
+                    HorizontalTextAlignment="End"
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+
+            <Label
+                Text="5th Hour Survey of Buisness"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="No Unfinished Classwork"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    />
+                <Label
+                    Text=" "
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="6th Hour Programming Year I"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="No Unfinished Classwork"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text=" "
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="7th Hour Biology"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="No Unfinished Classwork"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text=" "
+                    />
+            </StackLayout>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <Label
+                Text="8th Hour American History since 1450"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                />
+            <StackLayout
+                Orientation="Horizontal" 
+                Padding="1">
+                <Label
+                    Text="No Unfinished Classwork"
+                    FontSize="Caption"
+                    HorizontalOptions="StartAndExpand" 
+                    HorizontalTextAlignment="Start" 
+                    />
+                <Label
+                    Text=" "
+                    />
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

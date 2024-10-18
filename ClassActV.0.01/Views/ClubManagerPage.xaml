@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassActV._0._01.Views.ClubManagerPage"
+             Title="Club Page">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label 
+                Text="Your Clubs"
+                Style="{StaticResource Headline}"
+                FontSize="50"
+                SemanticProperties.HeadingLevel="Level1"
+                HorizontalOptions="Center"
+                Margin="0,0,0,0"/>
+            
+            <StackLayout
+                Orientation="Horizontal" 
+                Spacing="45"
+                Padding="60,20,60,0">
+
+                <Button
+                    Text="Your Clubs"
+                    WidthRequest="110" HeightRequest="110"
+                    CornerRadius="20"
+                    HorizontalOptions="StartAndExpand"  
+                    Clicked="Your_Clubs_Button_Clicked"
+                    />
+                <Button
+                    Text="Club Notification"
+                    WidthRequest="110" HeightRequest="110"
+                    CornerRadius="20"
+                    HorizontalOptions="EndAndExpand"
+                    LineBreakMode="WordWrap"
+                    Clicked="Club_Notification_Button_Clicked"
+                    />
+
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ClassActV._0._01.Views.Club_pages.ClubNotifications"
+             x:Name="RootPage"
+             Title="Club Notifications">
+
+    <ScrollView
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand">
+        <VerticalStackLayout
+            Padding="10"
+            HorizontalOptions="FillAndExpand" 
+            VerticalOptions="FillAndExpand" >
+            <Label 
+                Text="Clubs"
+                Style="{StaticResource Headline}"
+                FontSize="50"
+                SemanticProperties.HeadingLevel="Level1"
+                HorizontalOptions="Center"
+                Margin="0,0,0,20" />
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>            
+            <Label
+                Text="FBLA"
+                FontSize="Medium" 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End"
+                HeightRequest="20"
+                Margin="0,0,0,40" />
+            <Label
+                Text="FBLA Dues are Due (they can be paid in advance)"
+                FontSize="Caption"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Start" 
+                HeightRequest="20"
+                Margin="0,0,0,40" />
+            <BoxView Color="{StaticResource Secondary }" 
+                     HeightRequest="10" 
+                     HorizontalOptions="FillAndExpand" 
+                     Margin="0,0,0,20"/>
+            <Label
+                Text="School Band"
+                FontSize="Medium" 
+                VerticalOptions="Center"
+                HorizontalOptions="End"
+                HorizontalTextAlignment="End" 
+                Margin="0,0,0,10" />
+            <Label
+                Text="Event Update: Hey Band Members! Just a heads-up: our performance at the Highland Community Fair has been moved to Saturday at 3 PM. We'll meet in the band room at 1 PM for a quick run-through. Don't forget your uniforms and instruments! Let’s make some music!"
+                FontSize="Body"
+                HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                HorizontalTextAlignment="Start"
+                HeightRequest="170"
+                LineBreakMode="WordWrap"
+                Margin="0,0,0,20"/>
+            <Label
+                Text="Announcement: Attention Band Members! We’re thrilled to announce a special guest workshop with renowned saxophonist Jane Doe next Wednesday after school. She’ll be sharing tips on performance techniques and answering questions. Don’t miss this incredible opportunity to learn from the best!"
+                FontSize="Body" 
+                HorizontalOptions="Fill"  VerticalOptions="Fill"
+                HorizontalTextAlignment="Start" 
+                HeightRequest="170"
+                LineBreakMode="WordWrap"
+                Margin="0,0,0,20" />
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
