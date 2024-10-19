@@ -32,6 +32,7 @@
                     WidthRequest="110" HeightRequest="110"
                     CornerRadius="20"
                     HorizontalOptions="StartAndExpand"
+                    LineBreakMode="WordWrap"
                     Clicked="School_Email_Button_Clicked"
                     />
                 <Button
@@ -43,6 +44,19 @@
                     Clicked="Personal_Email_Button_Clicked"
                     />
 
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal" 
+                Spacing="45"
+                Padding="60,0,60,0">
+
+                <Button
+                    Text="Edit Email links"
+                    WidthRequest="110" HeightRequest="110"
+                    CornerRadius="20"
+                    LineBreakMode="WordWrap"
+                    HorizontalOptions="StartAndExpand"
+                    />
             </StackLayout>
         </StackLayout> 
     </ScrollView>

@@ -19,20 +19,6 @@
                 HeightRequest="45"
                 Spacing="0">
 
-                <!--<Label
-                Text="Class Act"
-                Style="{StaticResource Headline}"
-                FontSize="50"
-                SemanticProperties.HeadingLevel="Level1"
-                HorizontalOptions="Center"
-                Margin="0,40,0,0"
-                />
-                <Image
-                Source="dotnet_bot.png"
-                HeightRequest="100"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />-->
-                
                 <Image
                     Source="classact_logo_simple.png"
                     HeightRequest="170"
@@ -45,13 +31,6 @@
 
             <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,50,0,10"/>
 
-
-
-            <!--<Image
-                Source="dotnet_bot.png"
-                HeightRequest="100"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />-->
 
             <StackLayout 
                 Orientation ="Horizontal"
