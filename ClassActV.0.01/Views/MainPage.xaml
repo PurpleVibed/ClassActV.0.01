@@ -19,7 +19,7 @@
                 HeightRequest="45"
                 Spacing="0">
 
-                <Label
+                <!--<Label
                 Text="Class Act"
                 Style="{StaticResource Headline}"
                 FontSize="50"
@@ -27,10 +27,23 @@
                 HorizontalOptions="Center"
                 Margin="0,40,0,0"
                 />
+                <Image
+                Source="dotnet_bot.png"
+                HeightRequest="100"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />-->
                 
+                <Image
+                    Source="classact_logo_simple.png"
+                    HeightRequest="170"
+                    Aspect="AspectFit" 
+                    Margin="0,120,0,0"
+                    SemanticProperties.Description="Class Act in cursive with a red white and blue star behind it."
+                    />
+
             </StackLayout>
 
-            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,0,0,20"/>
+            <BoxView Color="{StaticResource Secondary }" HeightRequest="10" HorizontalOptions="FillAndExpand" Margin="0,50,0,10"/>
 
 
 
